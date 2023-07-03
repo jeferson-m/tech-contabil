@@ -1,0 +1,33 @@
+.header-bg {
+  background-color: #141414;
+  box-shadow: 0 2px 2px #000000;
+}
+
+.header {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header img {
+  max-width: 300px;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+  .header-menu {
+    gap: 50px;
+  }
+}

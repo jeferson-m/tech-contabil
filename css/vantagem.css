@@ -1,0 +1,36 @@
+.vantagem {
+  color: #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+  padding: 100px 35px;
+}
+
+.vantagem-conteudo h2 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  text-align: right;
+}
+.vantagem-conteudo h2 span {
+  color: #f93262;
+}
+
+.vantagem-conteudo p {
+  margin-bottom: 35px;
+  text-align: right;
+  font-size: 1.25rem;
+  color: #484848;
+}
+
+.vantagem-conteudo a {
+  float: right;
+}
+
+@media (max-width: 1100px) {
+  .vantagem {
+    grid-template-columns: 1fr;
+  }
+  .vantagem img {
+    display: none;
+  }
+}
