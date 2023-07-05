@@ -1,0 +1,26 @@
+.footer-bg {
+  background-color: #141414;
+  color: #fff;
+}
+
+.footer img {
+  max-width: 300px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer li {
+  font-size: 1.5rem;
+}
+
+.footer-bg p {
+  font-size: 0.7rem;
+  color: #a7a7a7;
+  margin-top: 10px;
+  padding-bottom: 05px;
+}
